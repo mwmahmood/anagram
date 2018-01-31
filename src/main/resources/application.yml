@@ -1,0 +1,10 @@
+server:
+  display-name: anagram-manager
+  address: 0.0.0.0
+  port: 8282
+spring:
+  mvc:
+    view:
+        prefix: /WEB-INF/
+        suffix: .jsp
+  application.dictionary.location: http://static.abscond.org/wordlist.txt
